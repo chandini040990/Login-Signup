@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login/Signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <body class="body-container">
+        <div class="container1">
+
+            <form action="#" id="Signupform">
+                <h2>Signup</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="enter the name" required>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="enter the username" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="enter the email" required>
+
+                <label for="password">Password:</label>
+                <input type="text" id="password" placeholder="enter the password" required>
+
+                <button id="submitbtn" type="button" onclick="valsignForm()">Submit</button>
+                <div id="feedback1" class="feedback"></div>
+            </form>
+        </div>
+
+        <div class="container2">
+            <form action="#" id="Loginform">
+                <h2>Login</h2>
+                <label for="username2">Username:</label>
+                <input type="text" id="username2" placeholder="enter the username" required>
+
+                <label for="password2">Password:</label>
+                <input type="text" id="password2" placeholder="enter the password" required>
+
+                <button id="submitbtn2" type="button" onclick="vallogForm()">Submit</button>
+                <div id="feedback2" class="feedback"></div>
+            </form>
+
+        </div>
+       
+    </div>
+        <script src="./main.js"></script>
+    </body>
+
+</html>
