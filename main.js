@@ -12,9 +12,11 @@ function valsignForm() {
 
     if (signName && signUsername && signEmail && signPassword !== "") {
         feedbackEl.innerText = "Signup Successful"
+        // window.confirm("Signup Successful")
     }
     else {
         feedbackEl.innerText = "Signup Failed! Enter all the values"
+        // window.confirm("Signup not Successful")
     }
 }
 
